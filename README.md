@@ -25,7 +25,7 @@ test03(b = 21) {
 
 test04(a = "a b c")
 
-# if the string matches the regex [A-Za-z0-9_-]
+# if the string matches the regex [A-Za-z0-9_-]+
 # then string commas can be omitted
 
 test05(a = abc)
