@@ -6,14 +6,14 @@ category of something like JSX.
 
 ```
 head {
-  title(text = "Test Page")
-  script(type = text/javascript, src = main.js)
+  title { text = "Test Page" }
+  script { type = text/javascript, src = main.js }
 }
 body {
   div@header {
-    h1(text = "Test Page")
+    h1 { text = "Test Page" }
     hr
-    h2(text = "Subtext")
+    h2 { text = "Subtext" }
   }
 }
 ```
